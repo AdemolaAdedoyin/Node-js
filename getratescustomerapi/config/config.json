@@ -1,0 +1,26 @@
+{
+    "development": {
+        "url": "postgres://vqfqqwalpkfwrh:4ff54b644bb4313af054a1bf9c4890c049530098744067e745bd5408d2bbf1b0@ec2-184-73-236-170.compute-1.amazonaws.com:5432/d7danu5s41neer",
+        "dialect": "pg",
+        "dialectOptions": {
+            "ssl": true,
+            "native": true
+        }
+    },
+    "test": {
+        "url": "postgres://vqfqqwalpkfwrh:4ff54b644bb4313af054a1bf9c4890c049530098744067e745bd5408d2bbf1b0@ec2-184-73-236-170.compute-1.amazonaws.com:5432/d7danu5s41neer",
+        "dialect": "pg",
+        "dialectOptions": {
+            "ssl": true,
+            "native": true
+        }
+    },
+    "production": {
+        "url": "postgres://vqfqqwalpkfwrh:4ff54b644bb4313af054a1bf9c4890c049530098744067e745bd5408d2bbf1b0@ec2-184-73-236-170.compute-1.amazonaws.com:5432/d7danu5s41neer",
+        "dialect": "pg",
+        "dialectOptions": {
+            "ssl": true,
+            "native": true
+        }
+    }
+}

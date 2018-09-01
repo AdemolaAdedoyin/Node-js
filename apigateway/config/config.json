@@ -1,0 +1,24 @@
+{
+  "development": {
+    "username": "root",
+    "password": null,
+    "database": "database_development",
+    "host": "127.0.0.1",
+    "dialect": "mysql"
+  },
+  "test": {
+    "uri": "postgres://yuxetvbxrgpnsl:5d05ed826a6c780e9007bfb087eb0653061710e04231773e05317c774aa4198f@ec2-50-17-217-166.compute-1.amazonaws.com:5432/dekc9emgm9u919",
+    "dialect": "postgres",
+    "dialectOptions": {
+      "native": true,
+      "ssl": true
+    }
+  },
+  "production": {
+    "username": "root",
+    "password": null,
+    "database": "database_production",
+    "host": "127.0.0.1",
+    "dialect": "mysql"
+  }
+}

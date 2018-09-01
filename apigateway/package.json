@@ -1,0 +1,26 @@
+{
+  "name": "apigateway",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "nodemon ./bin/www",
+    "test": "mocha --recursive"
+  },
+  "dependencies": {
+    "body-parser": "~1.17.1",
+    "cookie-parser": "~1.4.3",
+    "debug": "~2.6.3",
+    "express": "~4.15.2",
+    "express-fileupload": "^0.1.4",
+    "helmet": "^3.8.1",
+    "jade": "~1.11.0",
+    "morgan": "~1.8.1",
+    "nodemon": "^1.11.0",
+    "pg": "^7.1.0",
+    "pg-hstore": "^2.3.2",
+    "request": "^2.81.0",
+    "request-promise": "^4.2.1",
+    "sequelize": "^4.4.2",
+    "serve-favicon": "~2.4.2"
+  }
+}

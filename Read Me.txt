@@ -1,0 +1,22 @@
+This folder contains 4 projetcs, 3 nodejs projects and 1 python project
+
+Nodejs Projects
+--  user reviews and getrates customer api folders are both folders that contain 2 Web Restful APIs
+that i built built using nodejs, express and sequelize
+--- api gateway is a folder that contains an API gateway that the team i worked with built,
+which was the single entry point for the system
+
+Python project
+-- Main project is a python project using the pyramid Web Framework, that i built for my final year project,
+it translates spoken english to american sign language
+
+
+***
+they all require the necessary libraries and dependencies to work
+***
+**nodejs**
+"npm install" to install the depencies and "npm run start" to start the server and visit localhost:3000
+to view the json format of the API
+
+**python**
+"pip install -e ." , "cd Back_end" , "pserve --reload development.ini" then "http://localhost:6544/home"
